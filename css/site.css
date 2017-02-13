@@ -1,0 +1,131 @@
+h1, h2, h3, h4, h5, h6
+{
+    font-family: RobotoSlab-Bold, RobotoSlab-Regular, Roboto, "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+.cinema-white {
+    color: #fff;
+}
+
+.cinema-blue {
+    color: #1f2730;
+}
+
+.cinema-red {
+    color: #8a1b13;
+}
+
+.cinema-orange {
+    color: #ffb43f;
+}
+
+.cinema-black {
+    color: #000;
+}
+
+#video_background
+{
+    margin-top: -10vh;
+}
+
+.home h1, .home h2
+{
+    font-size: 6vw;
+    line-height: 1.2;
+}
+
+.home h3
+{
+    font-size: 4vw;
+    line-height: 1.2;
+}
+
+.home h4
+{
+    font-size: 3vw;
+    line-height: 1.2;
+}
+
+.home .opacy
+{
+    padding: 10rem 0;
+}
+
+.home .divider_light
+{
+    margin: 2rem 0;
+}
+
+.home .paddings-content
+{
+    padding: 0;
+}
+
+.work h1
+{
+    font-size: 40px;
+}
+
+.title h1
+{
+    font-size: 5.1rem;
+    line-height: 1.2;
+}
+
+.title h2
+{
+    font-size: 4.1rem;
+    line-height: 1.2;
+}
+
+.slogan h2, .slogan h3, .slogan h4, .date_blog h2
+{
+    text-transform: uppercase;
+}
+
+.slogan h2
+{
+    font-size: 3.7rem;
+}
+
+.slogan h4
+{
+    font-size: 2rem;
+}
+
+.ch-tutor-1
+{
+    background-image: url("/img/tutors/01.jpg");
+}
+
+.ch-tutor-2
+{
+    background-image: url("/img/tutors/02.jpg");
+}
+
+.ch-tutor-3
+{
+    background-image: url("/img/tutors/03.jpg");
+}
+
+.ch-tutor-4
+{
+    background-image: url("/img/tutors/04.jpg");
+}
+
+.ch-tutor-5
+{
+    background-image: url("/img/tutors/05.jpg");
+}
+
+.manager-slogan
+{
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.contact_us .number p
+{
+    font-family: RobotoSlab-Bold, RobotoSlab-Regular, Roboto, "Open Sans", sans-serif;
+}
