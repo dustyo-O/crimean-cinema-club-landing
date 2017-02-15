@@ -1,7 +1,12 @@
 h1, h2, h3, h4, h5, h6
 {
-    font-family: RobotoSlab-Bold, RobotoSlab-Regular, Roboto, "Open Sans", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: normal;
+}
+
+h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
+{
+    font: 0/0 a
 }
 
 .cinema-white {
@@ -29,21 +34,26 @@ h1, h2, h3, h4, h5, h6
     margin-top: -10vh;
 }
 
+.home_main
+{
+    width: 100%;
+}
+
 .home h1, .home h2
 {
-    font-size: 6vw;
+    font-size: 6rem;
     line-height: 1.2;
 }
 
 .home h3
 {
-    font-size: 4vw;
+    font-size: 4rem;
     line-height: 1.2;
 }
 
 .home h4
 {
-    font-size: 3vw;
+    font-size: 3rem;
     line-height: 1.2;
 }
 
@@ -127,5 +137,5 @@ h1, h2, h3, h4, h5, h6
 
 .contact_us .number p
 {
-    font-family: RobotoSlab-Bold, RobotoSlab-Regular, Roboto, "Open Sans", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
