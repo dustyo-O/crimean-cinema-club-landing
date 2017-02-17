@@ -43,6 +43,7 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
 {
     font-size: 6rem;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 .home h3
@@ -75,6 +76,36 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
 .work h1
 {
     font-size: 40px;
+    font-weight: bold;
+}
+
+.work .social_icon {
+    white-space: nowrap;
+}
+
+.work .social_icon span {
+    display: inline-block;
+    margin: 0 3px;
+    width: 5rem;
+    height: 5rem;
+}
+
+.work .social_icon span {
+    background: #fff;
+    border-radius: 100%;
+    padding: 1.2rem 1.2rem 0 0;
+}
+
+.work .social_icon a
+{
+    display: inline;
+    background: none;
+    border-radius: 0;
+}
+
+.work .social_icon a:hover
+{
+    color: #fff
 }
 
 .title h1
@@ -97,6 +128,11 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
 .slogan h2
 {
     font-size: 3.7rem;
+}
+
+.bold-title
+{
+    font-weight: bold;
 }
 
 .slogan h4
