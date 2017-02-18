@@ -165,6 +165,11 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
     background-image: url("/img/tutors/05.jpg");
 }
 
+.ch-tutor-6
+{
+    background-image: url("/img/tutors/06.jpg");
+}
+
 .manager-slogan
 {
     max-height: 150px;
