@@ -1,12 +1,14 @@
-h1, h2, h3, h4, h5, h6
-{
+h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: normal;
 }
 
-h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
-{
+h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper {
     font: 0/0 a
+}
+
+p {
+    font-style: normal;
 }
 
 .cinema-white {
@@ -27,6 +29,11 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
 
 .cinema-black {
     color: #000;
+}
+
+.opacy.no-padding
+{
+    padding: 2rem 0;
 }
 
 #video_background
@@ -170,6 +177,13 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
     background-image: url("/img/tutors/06.jpg");
 }
 
+.home-main h1.tutor
+{
+    font-size: 5rem;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
 .manager-slogan
 {
     max-height: 150px;
@@ -179,4 +193,18 @@ h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper
 .contact_us .number p
 {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.blog h2
+{
+    font-weight: bold;
+}
+
+.btn-danger {
+    background: #8a1b13;
+}
+
+.btn-lg {
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
 }
