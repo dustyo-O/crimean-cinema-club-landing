@@ -1,34 +1,76 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
 }
 
-h1 .wrapper, h2 .wrapper, h3 .wrapper, h4 .wrapper, h5 .wrapper, h6 .wrapper {
-    font: 0/0 a
+h1 .wrapper,
+h2 .wrapper,
+h3 .wrapper,
+h4 .wrapper,
+h5 .wrapper,
+h6 .wrapper
+{
+    font: 0/0 a;
 }
 
-p {
+p
+{
     font-style: normal;
 }
 
-.cinema-white {
+.cinema-white
+{
     color: #fff;
 }
 
-.cinema-blue {
+.cinema-blue
+{
     color: #1f2730;
 }
 
-.cinema-red {
+.cinema-red
+{
     color: #8a1b13;
 }
 
-.cinema-orange {
+.cinema-orange
+{
     color: #ffb43f;
 }
 
-.cinema-black {
+.cinema-black
+{
     color: #000;
+}
+
+.header .title .logo-link
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: auto;
+    min-width: 46px;
+    padding: 2px;
+
+    text-align: center;
+
+    border-width: 5px;
+    border-color: #ffb43f;
+    border-radius: 50%;
+    background: #ffb43f;
+}
+
+.header .title .logo-link .logo
+{
+    display: inline-block;
+    float: none;
 }
 
 .opacy.no-padding
@@ -46,11 +88,12 @@ p {
     width: 100%;
 }
 
-.home h1, .home h2
+.home h1,
+.home h2
 {
     font-size: 6rem;
-    line-height: 1.2;
     font-weight: bold;
+    line-height: 1.2;
 }
 
 .home h3
@@ -86,33 +129,39 @@ p {
     font-weight: bold;
 }
 
-.work .social_icon {
+.work .social_icon
+{
     white-space: nowrap;
 }
 
-.work .social_icon span {
+.work .social_icon span
+{
     display: inline-block;
-    margin: 0 3px;
+
     width: 5rem;
     height: 5rem;
+    margin: 0 3px;
 }
 
-.work .social_icon span {
-    background: #fff;
-    border-radius: 100%;
+.work .social_icon span
+{
     padding: 1.2rem 1.2rem 0 0;
+
+    border-radius: 100%;
+    background: #fff;
 }
 
 .work .social_icon a
 {
     display: inline;
-    background: none;
+
     border-radius: 0;
+    background: none;
 }
 
 .work .social_icon a:hover
 {
-    color: #fff
+    color: #fff;
 }
 
 .title h1
@@ -127,7 +176,10 @@ p {
     line-height: 1.2;
 }
 
-.slogan h2, .slogan h3, .slogan h4, .date_blog h2
+.slogan h2,
+.slogan h3,
+.slogan h4,
+.date_blog h2
 {
     text-transform: uppercase;
 }
@@ -149,55 +201,57 @@ p {
 
 .ch-tutor-1
 {
-    background-image: url("/img/tutors/01.jpg");
+    background-image: url('/img/tutors/01.jpg');
 }
 
 .ch-tutor-2
 {
-    background-image: url("/img/tutors/02.jpg");
+    background-image: url('/img/tutors/02.jpg');
 }
 
 .ch-tutor-3
 {
-    background-image: url("/img/tutors/03.jpg");
+    background-image: url('/img/tutors/03.jpg');
 }
 
 .ch-tutor-4
 {
-    background-image: url("/img/tutors/04.jpg");
+    background-image: url('/img/tutors/04.jpg');
 }
 
 .ch-tutor-5
 {
-    background-image: url("/img/tutors/05.jpg");
+    background-image: url('/img/tutors/05.jpg');
 }
 
 .ch-tutor-6
 {
-    background-image: url("/img/tutors/06.jpg");
+    background-image: url('/img/tutors/06.jpg');
 }
 
 .ch-item:hover
 {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .home-main h1.tutor
 {
     font-size: 5rem;
     line-height: normal;
+
     letter-spacing: normal;
 }
 
 .manager-slogan
 {
     max-height: 150px;
+
     border-radius: 50%;
 }
 
 .contact_us .number p
 {
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .blog h2
@@ -205,42 +259,55 @@ p {
     font-weight: bold;
 }
 
-.btn-danger {
+.btn-danger
+{
     background: #8a1b13;
 }
 
-.btn-lg {
+.btn-lg
+{
     font-size: 1.7rem;
+
     padding: 1rem 3rem;
 }
 
-.slogan.paddings {
+.slogan.paddings
+{
     padding: 10rem 0;
 }
 
-.paddings-content-part2 {
+.paddings-content-part2
+{
     padding: 3.5rem 0 0;
 }
 
-h2.idei {
-    line-height: normal;
-    text-align: left;
-    font-weight: bold;
+h2.idei
+{
     font-size: 4rem;
-    margin-bottom: 15rem;
-}
-
-h2.this-course-is-for-you {
     font-weight: bold;
-    font-size: 6.5rem;
+    line-height: normal;
+
+    margin-bottom: 15rem;
+
+    text-align: left;
 }
 
-h4.regisser-title {
+h2.this-course-is-for-you
+{
+    font-size: 6.5rem;
+    font-weight: bold;
+}
+
+h4.regisser-title
+{
     font-size: 2.5rem;
+
     margin-top: 5.5rem;
 }
 
-h2.start-shooting {
+h2.start-shooting
+{
     font-size: 3.85rem;
+
     margin-top: 1rem;
 }
