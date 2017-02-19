@@ -177,6 +177,11 @@ p {
     background-image: url("/img/tutors/06.jpg");
 }
 
+.ch-item:hover
+{
+    cursor:pointer;
+}
+
 .home-main h1.tutor
 {
     font-size: 5rem;
