@@ -213,3 +213,34 @@ p {
     font-size: 1.7rem;
     padding: 1rem 3rem;
 }
+
+.slogan.paddings {
+    padding: 10rem 0;
+}
+
+.paddings-content-part2 {
+    padding: 3.5rem 0 0;
+}
+
+h2.idei {
+    line-height: normal;
+    text-align: left;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 15rem;
+}
+
+h2.this-course-is-for-you {
+    font-weight: bold;
+    font-size: 6.5rem;
+}
+
+h4.regisser-title {
+    font-size: 2.5rem;
+    margin-top: 5.5rem;
+}
+
+h2.start-shooting {
+    font-size: 3.85rem;
+    margin-top: 1rem;
+}
