@@ -296,11 +296,13 @@ h2.this-course-is-for-you
 {
     font-size: 6.5rem;
     font-weight: bold;
+    line-height: normal;
 }
 
 h4.regisser-title
 {
     font-size: 2.5rem;
+    line-height: normal;
 
     margin-top: 5.5rem;
 }
@@ -308,6 +310,11 @@ h4.regisser-title
 h2.start-shooting
 {
     font-size: 3.85rem;
+    line-height: normal;
 
     margin-top: 1rem;
+}
+
+@media handheld, only screen and (max-width: 980px){
+
 }
